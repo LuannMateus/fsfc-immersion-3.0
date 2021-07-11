@@ -13,7 +13,7 @@ const product: Product[] = [
     created_at: '2021-06-06T00:00',
   },
   {
-    id: 'uuid',
+    id: 'uuid123',
     name: 'produto teste',
     description: 'muito caro texto',
     price: 50.5,

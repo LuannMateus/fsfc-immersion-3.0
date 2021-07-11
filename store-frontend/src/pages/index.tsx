@@ -56,6 +56,7 @@ const Home: NextPage<HomeProps> = ({ products }) => {
       <Head>
         <title>Home | Store</title>
       </Head>
+    
       <div className={style.container}>
         <Typography
           component="h1"
