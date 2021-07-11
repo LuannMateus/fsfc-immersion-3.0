@@ -5,12 +5,12 @@ import (
 
 	"github.com/LuannMateus/codebank/dto"
 	"github.com/LuannMateus/codebank/usecase"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/status"
 
 	"github.com/LuannMateus/codebank/infrastructure/grpc/pb"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
 )
 
 type TransactionService struct {
